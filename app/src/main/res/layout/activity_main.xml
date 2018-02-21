@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.app.database_demo.MainActivity">
+
+    <TextView
+        android:id="@+id/textone"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dummy"/>
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+  <Button
+      android:id="@+id/btn1_id"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="lucky"/>
+
+        <Button
+            android:id="@+id/btn2_id"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hemant"/>
+
+
+        <Button
+            android:id="@+id/btn3_id"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hemant roy "/>
+    </LinearLayout>
+
+
+</LinearLayout>
